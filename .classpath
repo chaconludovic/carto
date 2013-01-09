@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/GEIE.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/matheclipse-parser-0.0.10.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AjaxLoaderLib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Apis_Google_Maps"/>
+	<classpathentry kind="lib" path="/developpement/apache-tomcat-7.0.26/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/developpement/apache-tomcat-7.0.26/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/developpement/apache-tomcat-7.0.26/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/developpement/apache-tomcat-7.0.26/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/developpement/apache-tomcat-7.0.26/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

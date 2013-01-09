@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="CarteFa.css">
+
+<!--                                           -->
+<!-- Any title is fine                         -->
+<!--                                           -->
+<title>Représentation des clients FA</title>
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" language="javascript"
+	src="cartefa/cartefa.nocache.js"></script>
+</head>
+
+<!--                                           -->
+<!-- The body can have arbitrary html, or      -->
+<!-- you can leave the body empty if you want  -->
+<!-- to create a completely dynamic UI.        -->
+<!--                                           -->
+<body>
+
+	<!-- OPTIONAL: include this if you want history support -->
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+
+	<h1>Représentation des clients FA</h1>
+
+	<table align="center">
+		<tr>
+			<td colspan="2">Sélectionner un fichier au format csv (3
+				colonnes: une avec la typologie (qui affichera des marqueurs avec
+				des couleurs différentes), la deuxième avec le nom de l'entité et la
+				dernière avec une adresse/un nom de ville avec nom du pays. Le
+				séparateur étant le ;).</td>
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td />
+			<td id="boutonReset"></td>
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td />
+			<td id="tempsDIntegrationRestant"></td>
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td />
+			<td id="legende"></td>
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td />
+			<td id="carte"></td>
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td colspan="2" />
+		</tr>
+		<tr>
+			<td id="type"></td>
+			<td id="upload"></td>
+		</tr>
+		<tr>
+			<td />
+			<td id="compteRendu"></td>
+		</tr>
+	</table>
+</body>
+</html>
